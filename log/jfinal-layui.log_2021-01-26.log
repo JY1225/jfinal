@@ -1,0 +1,10 @@
+
+2021-01-26 09:46:42[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1,mysql} inited
+
+2021-01-26 09:46:42[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-2,oracle} inited
+
+2021-01-26 09:46:43[INFO]-[Thread: main]-[io.undertow.Undertow.start()]: starting server: Undertow - 2.0.28.Final
+
+2021-01-26 09:46:43[INFO]-[Thread: main]-[org.xnio.Xnio.<clinit>()]: XNIO version 3.3.8.Final
+
+2021-01-26 09:46:43[INFO]-[Thread: main]-[org.xnio.nio.NioXnio.<clinit>()]: XNIO NIO Implementation Version 3.3.8.Final

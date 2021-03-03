@@ -1,0 +1,55 @@
+	#(token)
+	<input type="hidden" class="layui-input" name="oAMessageTimmer.id" value="#(oAMessageTimmer.RKEY??)"/>
+
+	<div class="layui-row layui-col-space task-row">			
+		#@colStart('周期（周?）',6)
+		 <input type="text" class="layui-input" name="oAMessageTimmer.mESS_RUN_WEEK" value="#(oAMessageTimmer.mESS_RUN_WEEK??'')" 
+		   placeHolder="1/2/3/4/5表示工作日 6/7表示周末"
+		/>
+		#@colEnd()
+		
+		
+		#@colStart('周期（日?）',6)
+		<input type="text" class="layui-input" name="oAMessageTimmer.mESS_RUN_DAY" value="#(oAMessageTimmer.mESS_RUN_DAY??'')" 
+		  placeHolder="1/2/3表示每月1号，2号，3号"
+		/>
+		
+		#@colEnd()
+	</div>
+	
+	
+	<div class="layui-row layui-col-spacel task-row">	
+		#set(req=true)	
+		#@colStart('发送时间',6)
+		<input type="text" class="layui-input" name="oAMessageTimmer.mESS_TIMES" value="#(oAMessageTimmer.mESS_TIMES??)" 
+		lay-verType='tips'lay-verify="required|" maxlength="50" placeHolder="如：08:30"/>
+		#@colEnd()
+		
+		#set(req=true)
+		#@colStart('任务启动日',6)
+		<input type="Date" class="layui-input" name="oAMessageTimmer.mESS_RUN_TIME" value="#(oAMessageTimmer.mESS_RUN_TIME??'')" 
+		 lay-verType='tips'lay-verify="required|" maxlength="50" placeHolder=""
+		/>
+		#@colEnd()
+	</div>
+	
+	<div class="layui-row layui-col-spacel task-row">
+		#@colStart('是否启用',6)
+		<input name="oAMessageTimmer.mESS_STATUS" type="radio" value="1"  title="是" 
+			#if(oAMessageTimmer.mESS_STATUS??==1||oAMessageTimmer==null)checked="checked"#end
+		/>		
+		<input name="oAMessageTimmer.mESS_STATUS" type="radio" value="0" title="否"
+			#if(oAMessageTimmer.user_code??=='admin'||oAMessageTimmer.user_code??=='superadmin') disabled #end
+			#if(oAMessageTimmer.mESS_STATUS??==0)checked="checked"#end
+		/>
+		#@colEnd()
+		
+		#set(req=true)	
+		#@colStart('sql脚本',12)
+		<input type="text" class="layui-input" name="oAMessageTimmer.mESS_SQL_LIST" value="#(oAMessageTimmer.mESS_SQL_LIST??)"
+		lay-verType='tips'lay-verify="timmersql|" placeHolder="select sendName 发送人, reName 接收人, content 消息内容, url 链接地址 from tableName" />
+		#@colEnd()
+	</div>
+	
+	
+	#@submitButton()

@@ -1,0 +1,516 @@
+
+2021-02-20 13:40:56[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1,mysql} inited
+
+2021-02-20 13:40:57[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-2,oracle} inited
+
+2021-02-20 13:40:58[INFO]-[Thread: main]-[io.undertow.Undertow.start()]: starting server: Undertow - 2.0.28.Final
+
+2021-02-20 13:40:58[INFO]-[Thread: main]-[org.xnio.Xnio.<clinit>()]: XNIO version 3.3.8.Final
+
+2021-02-20 13:40:58[INFO]-[Thread: main]-[org.xnio.nio.NioXnio.<clinit>()]: XNIO NIO Implementation Version 3.3.8.Final
+
+2021-02-20 13:52:57[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-2} closed
+
+2021-02-20 13:52:57[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-1} closed
+
+2021-02-20 13:52:57[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.stop()]: stopping server: Undertow - 2.0.28.Final
+
+2021-02-20 13:52:58[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-3,mysql} inited
+
+2021-02-20 13:52:58[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-4,oracle} inited
+
+2021-02-20 13:52:58[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.start()]: starting server: Undertow - 2.0.28.Final
+
+2021-02-20 14:08:29[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-4} closed
+
+2021-02-20 14:08:29[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-3} closed
+
+2021-02-20 14:08:29[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.stop()]: stopping server: Undertow - 2.0.28.Final
+
+2021-02-20 14:08:30[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-5,mysql} inited
+
+2021-02-20 14:08:30[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-6,oracle} inited
+
+2021-02-20 14:08:30[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.start()]: starting server: Undertow - 2.0.28.Final
+
+2021-02-20 14:11:39[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-6} closed
+
+2021-02-20 14:11:39[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-5} closed
+
+2021-02-20 14:11:39[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.stop()]: stopping server: Undertow - 2.0.28.Final
+
+2021-02-20 14:11:39[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-7,mysql} inited
+
+2021-02-20 14:11:39[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-8,oracle} inited
+
+2021-02-20 14:11:40[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.start()]: starting server: Undertow - 2.0.28.Final
+
+2021-02-20 14:17:47[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-8} closed
+
+2021-02-20 14:17:47[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-7} closed
+
+2021-02-20 14:17:47[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.stop()]: stopping server: Undertow - 2.0.28.Final
+
+2021-02-20 14:17:48[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-9,mysql} inited
+
+2021-02-20 14:17:48[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-10,oracle} inited
+
+2021-02-20 14:17:48[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.start()]: starting server: Undertow - 2.0.28.Final
+
+2021-02-20 14:18:10[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-10} closed
+
+2021-02-20 14:18:10[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-9} closed
+
+2021-02-20 14:18:10[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.stop()]: stopping server: Undertow - 2.0.28.Final
+
+2021-02-20 14:18:10[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-11,mysql} inited
+
+2021-02-20 14:18:10[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-12,oracle} inited
+
+2021-02-20 14:18:10[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.start()]: starting server: Undertow - 2.0.28.Final
+
+2021-02-20 14:22:50[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-12} closed
+
+2021-02-20 14:22:50[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-11} closed
+
+2021-02-20 14:22:50[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.stop()]: stopping server: Undertow - 2.0.28.Final
+
+2021-02-20 14:22:50[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-13,mysql} inited
+
+2021-02-20 14:22:50[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-14,oracle} inited
+
+2021-02-20 14:22:51[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.start()]: starting server: Undertow - 2.0.28.Final
+
+2021-02-20 14:29:18[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-14} closed
+
+2021-02-20 14:29:18[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-13} closed
+
+2021-02-20 14:29:18[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.stop()]: stopping server: Undertow - 2.0.28.Final
+
+2021-02-20 14:29:19[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-15,mysql} inited
+
+2021-02-20 14:29:19[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-16,oracle} inited
+
+2021-02-20 14:29:19[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.start()]: starting server: Undertow - 2.0.28.Final
+
+2021-02-20 14:29:40[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-16} closed
+
+2021-02-20 14:29:40[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-15} closed
+
+2021-02-20 14:29:40[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.stop()]: stopping server: Undertow - 2.0.28.Final
+
+2021-02-20 14:29:40[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-17,mysql} inited
+
+2021-02-20 14:29:40[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-18,oracle} inited
+
+2021-02-20 14:29:41[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.start()]: starting server: Undertow - 2.0.28.Final
+
+2021-02-20 14:30:08[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-18} closed
+
+2021-02-20 14:30:08[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-17} closed
+
+2021-02-20 14:30:08[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.stop()]: stopping server: Undertow - 2.0.28.Final
+
+2021-02-20 14:30:08[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-19,mysql} inited
+
+2021-02-20 14:30:08[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-20,oracle} inited
+
+2021-02-20 14:30:08[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.start()]: starting server: Undertow - 2.0.28.Final
+
+2021-02-20 14:30:53[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-20} closed
+
+2021-02-20 14:30:53[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-19} closed
+
+2021-02-20 14:30:53[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.stop()]: stopping server: Undertow - 2.0.28.Final
+
+2021-02-20 14:30:54[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-21,mysql} inited
+
+2021-02-20 14:30:54[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-22,oracle} inited
+
+2021-02-20 14:30:54[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.start()]: starting server: Undertow - 2.0.28.Final
+
+2021-02-20 14:36:17[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-22} closed
+
+2021-02-20 14:36:17[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-21} closed
+
+2021-02-20 14:36:17[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.stop()]: stopping server: Undertow - 2.0.28.Final
+
+2021-02-20 14:36:17[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-23,mysql} inited
+
+2021-02-20 14:36:17[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-24,oracle} inited
+
+2021-02-20 14:36:18[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.start()]: starting server: Undertow - 2.0.28.Final
+
+2021-02-20 14:36:50[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-24} closed
+
+2021-02-20 14:36:50[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-23} closed
+
+2021-02-20 14:36:50[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.stop()]: stopping server: Undertow - 2.0.28.Final
+
+2021-02-20 14:36:50[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-25,mysql} inited
+
+2021-02-20 14:36:50[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-26,oracle} inited
+
+2021-02-20 14:36:51[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.start()]: starting server: Undertow - 2.0.28.Final
+
+2021-02-20 14:37:15[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-26} closed
+
+2021-02-20 14:37:15[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-25} closed
+
+2021-02-20 14:37:15[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.stop()]: stopping server: Undertow - 2.0.28.Final
+
+2021-02-20 14:37:16[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-27,mysql} inited
+
+2021-02-20 14:37:16[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-28,oracle} inited
+
+2021-02-20 14:37:16[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.start()]: starting server: Undertow - 2.0.28.Final
+
+2021-02-20 14:39:15[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-28} closed
+
+2021-02-20 14:39:15[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-27} closed
+
+2021-02-20 14:39:15[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.stop()]: stopping server: Undertow - 2.0.28.Final
+
+2021-02-20 14:39:15[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-29,mysql} inited
+
+2021-02-20 14:39:15[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-30,oracle} inited
+
+2021-02-20 14:39:15[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.start()]: starting server: Undertow - 2.0.28.Final
+
+2021-02-20 14:39:22[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-30} closed
+
+2021-02-20 14:39:22[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-29} closed
+
+2021-02-20 14:39:22[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.stop()]: stopping server: Undertow - 2.0.28.Final
+
+2021-02-20 14:39:22[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-31,mysql} inited
+
+2021-02-20 14:39:22[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-32,oracle} inited
+
+2021-02-20 14:39:22[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.start()]: starting server: Undertow - 2.0.28.Final
+
+2021-02-20 14:39:26[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-32} closed
+
+2021-02-20 14:39:26[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-31} closed
+
+2021-02-20 14:39:26[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.stop()]: stopping server: Undertow - 2.0.28.Final
+
+2021-02-20 14:39:26[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-33,mysql} inited
+
+2021-02-20 14:39:27[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-34,oracle} inited
+
+2021-02-20 14:39:27[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.start()]: starting server: Undertow - 2.0.28.Final
+
+2021-02-20 14:41:53[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-34} closed
+
+2021-02-20 14:41:53[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-33} closed
+
+2021-02-20 14:41:53[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.stop()]: stopping server: Undertow - 2.0.28.Final
+
+2021-02-20 14:41:53[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-35,mysql} inited
+
+2021-02-20 14:41:53[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-36,oracle} inited
+
+2021-02-20 14:41:54[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.start()]: starting server: Undertow - 2.0.28.Final
+
+2021-02-20 14:44:14[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-36} closed
+
+2021-02-20 14:44:14[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-35} closed
+
+2021-02-20 14:44:14[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.stop()]: stopping server: Undertow - 2.0.28.Final
+
+2021-02-20 14:44:14[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-37,mysql} inited
+
+2021-02-20 14:44:14[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-38,oracle} inited
+
+2021-02-20 14:44:15[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.start()]: starting server: Undertow - 2.0.28.Final
+
+2021-02-20 14:44:45[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-38} closed
+
+2021-02-20 14:44:45[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-37} closed
+
+2021-02-20 14:44:45[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.stop()]: stopping server: Undertow - 2.0.28.Final
+
+2021-02-20 14:44:45[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-39,mysql} inited
+
+2021-02-20 14:44:46[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-40,oracle} inited
+
+2021-02-20 14:44:46[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.start()]: starting server: Undertow - 2.0.28.Final
+
+2021-02-20 14:48:49[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-40} closed
+
+2021-02-20 14:48:49[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-39} closed
+
+2021-02-20 14:48:49[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.stop()]: stopping server: Undertow - 2.0.28.Final
+
+2021-02-20 14:48:49[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-41,mysql} inited
+
+2021-02-20 14:48:50[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-42,oracle} inited
+
+2021-02-20 14:48:50[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.start()]: starting server: Undertow - 2.0.28.Final
+
+2021-02-20 14:51:21[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-42} closed
+
+2021-02-20 14:51:21[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-41} closed
+
+2021-02-20 14:51:21[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.stop()]: stopping server: Undertow - 2.0.28.Final
+
+2021-02-20 14:51:22[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-43,mysql} inited
+
+2021-02-20 14:51:22[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-44,oracle} inited
+
+2021-02-20 14:51:22[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.start()]: starting server: Undertow - 2.0.28.Final
+
+2021-02-20 14:58:31[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-44} closed
+
+2021-02-20 14:58:31[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-43} closed
+
+2021-02-20 14:58:31[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.stop()]: stopping server: Undertow - 2.0.28.Final
+
+2021-02-20 14:58:32[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-45,mysql} inited
+
+2021-02-20 14:58:32[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-46,oracle} inited
+
+2021-02-20 14:58:32[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.start()]: starting server: Undertow - 2.0.28.Final
+
+2021-02-20 14:58:34[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-46} closed
+
+2021-02-20 14:58:34[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-45} closed
+
+2021-02-20 14:58:34[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.stop()]: stopping server: Undertow - 2.0.28.Final
+
+2021-02-20 14:58:35[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-47,mysql} inited
+
+2021-02-20 14:58:35[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-48,oracle} inited
+
+2021-02-20 14:58:35[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.start()]: starting server: Undertow - 2.0.28.Final
+
+2021-02-20 15:02:37[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-48} closed
+
+2021-02-20 15:02:37[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-47} closed
+
+2021-02-20 15:02:37[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.stop()]: stopping server: Undertow - 2.0.28.Final
+
+2021-02-20 15:02:37[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-49,mysql} inited
+
+2021-02-20 15:02:37[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-50,oracle} inited
+
+2021-02-20 15:02:37[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.start()]: starting server: Undertow - 2.0.28.Final
+
+2021-02-20 15:03:24[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-50} closed
+
+2021-02-20 15:03:24[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-49} closed
+
+2021-02-20 15:03:24[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.stop()]: stopping server: Undertow - 2.0.28.Final
+
+2021-02-20 15:03:24[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-51,mysql} inited
+
+2021-02-20 15:03:25[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-52,oracle} inited
+
+2021-02-20 15:03:25[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.start()]: starting server: Undertow - 2.0.28.Final
+
+2021-02-20 15:03:33[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-52} closed
+
+2021-02-20 15:03:33[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-51} closed
+
+2021-02-20 15:03:33[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.stop()]: stopping server: Undertow - 2.0.28.Final
+
+2021-02-20 15:03:33[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-53,mysql} inited
+
+2021-02-20 15:03:33[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-54,oracle} inited
+
+2021-02-20 15:03:33[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.start()]: starting server: Undertow - 2.0.28.Final
+
+2021-02-20 15:05:32[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-54} closed
+
+2021-02-20 15:05:32[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-53} closed
+
+2021-02-20 15:05:32[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.stop()]: stopping server: Undertow - 2.0.28.Final
+
+2021-02-20 15:05:33[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-55,mysql} inited
+
+2021-02-20 15:05:33[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-56,oracle} inited
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+2021-02-20 16:05:37[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1,mysql} inited
+
+2021-02-20 16:05:39[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-2,oracle} inited
+
+2021-02-20 16:05:39[INFO]-[Thread: main]-[io.undertow.Undertow.start()]: starting server: Undertow - 2.0.28.Final
+
+2021-02-20 16:05:39[INFO]-[Thread: main]-[org.xnio.Xnio.<clinit>()]: XNIO version 3.3.8.Final
+
+2021-02-20 16:05:39[INFO]-[Thread: main]-[org.xnio.nio.NioXnio.<clinit>()]: XNIO NIO Implementation Version 3.3.8.Final
+
+2021-02-20 16:11:45[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1,mysql} inited
+
+2021-02-20 16:11:45[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-2,oracle} inited
+
+2021-02-20 16:11:46[INFO]-[Thread: main]-[io.undertow.Undertow.start()]: starting server: Undertow - 2.0.28.Final
+
+2021-02-20 16:11:46[INFO]-[Thread: main]-[org.xnio.Xnio.<clinit>()]: XNIO version 3.3.8.Final
+
+2021-02-20 16:11:46[INFO]-[Thread: main]-[org.xnio.nio.NioXnio.<clinit>()]: XNIO NIO Implementation Version 3.3.8.Final
+
+2021-02-20 16:15:34[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1,mysql} inited
+
+2021-02-20 16:15:35[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-2,oracle} inited
+
+2021-02-20 16:15:35[INFO]-[Thread: main]-[io.undertow.Undertow.start()]: starting server: Undertow - 2.0.28.Final
+
+2021-02-20 16:15:35[INFO]-[Thread: main]-[org.xnio.Xnio.<clinit>()]: XNIO version 3.3.8.Final
+
+2021-02-20 16:15:35[INFO]-[Thread: main]-[org.xnio.nio.NioXnio.<clinit>()]: XNIO NIO Implementation Version 3.3.8.Final
+
+2021-02-20 16:23:47[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-2} closed
+
+2021-02-20 16:23:47[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-1} closed
+
+2021-02-20 16:23:47[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.stop()]: stopping server: Undertow - 2.0.28.Final
+
+2021-02-20 16:23:48[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-3,mysql} inited
+
+2021-02-20 16:23:48[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-4,oracle} inited
+
+2021-02-20 16:23:48[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.start()]: starting server: Undertow - 2.0.28.Final
+
+2021-02-20 16:23:58[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-4} closed
+
+2021-02-20 16:23:58[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-3} closed
+
+2021-02-20 16:23:58[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.stop()]: stopping server: Undertow - 2.0.28.Final
+
+2021-02-20 16:23:59[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-5,mysql} inited
+
+2021-02-20 16:23:59[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-6,oracle} inited
+
+2021-02-20 16:23:59[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.start()]: starting server: Undertow - 2.0.28.Final
+
+2021-02-20 16:24:03[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-6} closed
+
+2021-02-20 16:24:03[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-5} closed
+
+2021-02-20 16:24:03[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.stop()]: stopping server: Undertow - 2.0.28.Final
+
+2021-02-20 16:24:04[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-7,mysql} inited
+
+2021-02-20 16:24:04[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-8,oracle} inited
+
+2021-02-20 16:24:04[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.start()]: starting server: Undertow - 2.0.28.Final
+
+2021-02-20 16:29:12[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1,mysql} inited
+
+2021-02-20 16:29:12[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-2,oracle} inited
+
+2021-02-20 16:29:13[INFO]-[Thread: main]-[io.undertow.Undertow.start()]: starting server: Undertow - 2.0.28.Final
+
+2021-02-20 16:29:13[INFO]-[Thread: main]-[org.xnio.Xnio.<clinit>()]: XNIO version 3.3.8.Final
+
+2021-02-20 16:29:13[INFO]-[Thread: main]-[org.xnio.nio.NioXnio.<clinit>()]: XNIO NIO Implementation Version 3.3.8.Final
+
+2021-02-20 16:30:02[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1,mysql} inited
+
+2021-02-20 16:30:03[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-2,oracle} inited
+
+2021-02-20 16:30:03[INFO]-[Thread: main]-[io.undertow.Undertow.start()]: starting server: Undertow - 2.0.28.Final
+
+2021-02-20 16:30:03[INFO]-[Thread: main]-[org.xnio.Xnio.<clinit>()]: XNIO version 3.3.8.Final
+
+2021-02-20 16:30:03[INFO]-[Thread: main]-[org.xnio.nio.NioXnio.<clinit>()]: XNIO NIO Implementation Version 3.3.8.Final
+
+2021-02-20 16:59:18[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1,mysql} inited
+
+2021-02-20 16:59:19[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-2,oracle} inited
+
+2021-02-20 16:59:19[INFO]-[Thread: main]-[io.undertow.Undertow.start()]: starting server: Undertow - 2.0.28.Final
+
+2021-02-20 16:59:19[INFO]-[Thread: main]-[org.xnio.Xnio.<clinit>()]: XNIO version 3.3.8.Final
+
+2021-02-20 16:59:20[INFO]-[Thread: main]-[org.xnio.nio.NioXnio.<clinit>()]: XNIO NIO Implementation Version 3.3.8.Final
+
+2021-02-20 17:03:32[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-2} closed
+
+2021-02-20 17:03:32[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-1} closed
+
+2021-02-20 17:03:32[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.stop()]: stopping server: Undertow - 2.0.28.Final
+
+2021-02-20 17:03:33[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-3,mysql} inited
+
+2021-02-20 17:03:33[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-4,oracle} inited
+
+2021-02-20 17:03:33[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.start()]: starting server: Undertow - 2.0.28.Final
+
+2021-02-20 17:03:44[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1,mysql} inited
+
+2021-02-20 17:03:44[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-2,oracle} inited
+
+2021-02-20 17:03:45[INFO]-[Thread: main]-[io.undertow.Undertow.start()]: starting server: Undertow - 2.0.28.Final
+
+2021-02-20 17:03:45[INFO]-[Thread: main]-[org.xnio.Xnio.<clinit>()]: XNIO version 3.3.8.Final
+
+2021-02-20 17:03:45[INFO]-[Thread: main]-[org.xnio.nio.NioXnio.<clinit>()]: XNIO NIO Implementation Version 3.3.8.Final
+
+2021-02-20 17:07:23[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-2} closed
+
+2021-02-20 17:07:23[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-1} closed
+
+2021-02-20 17:07:23[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.stop()]: stopping server: Undertow - 2.0.28.Final
+
+2021-02-20 17:07:24[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-3,mysql} inited
+
+2021-02-20 17:07:24[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-4,oracle} inited
+
+2021-02-20 17:07:24[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.start()]: starting server: Undertow - 2.0.28.Final
+
+2021-02-20 17:19:31[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1,mysql} inited
+
+2021-02-20 17:19:32[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-2,oracle} inited
+
+2021-02-20 17:19:32[INFO]-[Thread: main]-[io.undertow.Undertow.start()]: starting server: Undertow - 2.0.28.Final
+
+2021-02-20 17:19:32[INFO]-[Thread: main]-[org.xnio.Xnio.<clinit>()]: XNIO version 3.3.8.Final
+
+2021-02-20 17:19:32[INFO]-[Thread: main]-[org.xnio.nio.NioXnio.<clinit>()]: XNIO NIO Implementation Version 3.3.8.Final
+
+2021-02-20 17:23:33[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-2} closed
+
+2021-02-20 17:23:33[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-1} closed
+
+2021-02-20 17:23:33[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.stop()]: stopping server: Undertow - 2.0.28.Final
+
+2021-02-20 17:23:33[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-3,mysql} inited
+
+2021-02-20 17:23:33[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-4,oracle} inited
+
+2021-02-20 17:23:33[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.start()]: starting server: Undertow - 2.0.28.Final
+
+2021-02-20 17:29:23[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1,mysql} inited
+
+2021-02-20 17:29:23[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-2,oracle} inited
+
+2021-02-20 17:29:24[INFO]-[Thread: main]-[io.undertow.Undertow.start()]: starting server: Undertow - 2.0.28.Final
+
+2021-02-20 17:29:24[INFO]-[Thread: main]-[org.xnio.Xnio.<clinit>()]: XNIO version 3.3.8.Final
+
+2021-02-20 17:29:24[INFO]-[Thread: main]-[org.xnio.nio.NioXnio.<clinit>()]: XNIO NIO Implementation Version 3.3.8.Final
+
+2021-02-20 17:40:32[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-2} closed
+
+2021-02-20 17:40:32[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-1} closed
+
+2021-02-20 17:40:32[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.stop()]: stopping server: Undertow - 2.0.28.Final
+
+2021-02-20 17:40:32[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-3,mysql} inited
+
+2021-02-20 17:40:32[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-4,oracle} inited
+
+2021-02-20 17:40:33[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.start()]: starting server: Undertow - 2.0.28.Final
+
+2021-02-20 17:40:59[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1,mysql} inited
+
+2021-02-20 17:40:59[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-2,oracle} inited
+
+2021-02-20 17:41:00[INFO]-[Thread: main]-[io.undertow.Undertow.start()]: starting server: Undertow - 2.0.28.Final
+
+2021-02-20 17:41:00[INFO]-[Thread: main]-[org.xnio.Xnio.<clinit>()]: XNIO version 3.3.8.Final
+
+2021-02-20 17:41:00[INFO]-[Thread: main]-[org.xnio.nio.NioXnio.<clinit>()]: XNIO NIO Implementation Version 3.3.8.Final

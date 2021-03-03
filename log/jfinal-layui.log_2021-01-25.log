@@ -1,0 +1,52 @@
+
+2021-01-25 16:36:21[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1,mysql} inited
+
+2021-01-25 16:36:21[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-2,oracle} inited
+
+2021-01-25 16:36:22[INFO]-[Thread: main]-[io.undertow.Undertow.start()]: starting server: Undertow - 2.0.28.Final
+
+2021-01-25 16:36:22[INFO]-[Thread: main]-[org.xnio.Xnio.<clinit>()]: XNIO version 3.3.8.Final
+
+2021-01-25 16:36:22[INFO]-[Thread: main]-[org.xnio.nio.NioXnio.<clinit>()]: XNIO NIO Implementation Version 3.3.8.Final
+
+2021-01-25 16:45:07[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1,mysql} inited
+
+2021-01-25 16:45:08[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-2,oracle} inited
+
+2021-01-25 16:45:09[INFO]-[Thread: main]-[io.undertow.Undertow.start()]: starting server: Undertow - 2.0.28.Final
+
+2021-01-25 16:45:09[INFO]-[Thread: main]-[org.xnio.Xnio.<clinit>()]: XNIO version 3.3.8.Final
+
+2021-01-25 16:45:09[INFO]-[Thread: main]-[org.xnio.nio.NioXnio.<clinit>()]: XNIO NIO Implementation Version 3.3.8.Final
+
+2021-01-25 16:53:23[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-2} closed
+
+2021-01-25 16:53:23[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-1} closed
+
+2021-01-25 16:53:23[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.stop()]: stopping server: Undertow - 2.0.28.Final
+
+2021-01-25 16:53:26[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-3,mysql} inited
+
+2021-01-25 16:53:26[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-4,oracle} inited
+
+2021-01-25 16:53:27[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.start()]: starting server: Undertow - 2.0.28.Final
+
+2021-01-25 17:01:27[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1,mysql} inited
+
+2021-01-25 17:01:27[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-2,oracle} inited
+
+2021-01-25 17:01:28[INFO]-[Thread: main]-[io.undertow.Undertow.start()]: starting server: Undertow - 2.0.28.Final
+
+2021-01-25 17:01:28[INFO]-[Thread: main]-[org.xnio.Xnio.<clinit>()]: XNIO version 3.3.8.Final
+
+2021-01-25 17:01:28[INFO]-[Thread: main]-[org.xnio.nio.NioXnio.<clinit>()]: XNIO NIO Implementation Version 3.3.8.Final
+
+2021-01-25 17:14:11[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1,mysql} inited
+
+2021-01-25 17:14:11[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-2,oracle} inited
+
+2021-01-25 17:14:12[INFO]-[Thread: main]-[io.undertow.Undertow.start()]: starting server: Undertow - 2.0.28.Final
+
+2021-01-25 17:14:12[INFO]-[Thread: main]-[org.xnio.Xnio.<clinit>()]: XNIO version 3.3.8.Final
+
+2021-01-25 17:14:12[INFO]-[Thread: main]-[org.xnio.nio.NioXnio.<clinit>()]: XNIO NIO Implementation Version 3.3.8.Final

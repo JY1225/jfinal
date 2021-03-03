@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="src/main/resources/lib/commons-beanutils.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/lib/commons-lang3.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/lib/ezmorph.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/lib/hk2-api.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/lib/hk2-locator.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/lib/hk2-utils.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/lib/httpclient-cache.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/lib/httpclient-win.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/lib/httpclient.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/lib/httpcore-nio.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/lib/httpcore.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/lib/httpmime.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/lib/jackson-annotations.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/lib/jackson-core.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/lib/jackson-databind.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/lib/jackson-jaxrs-base.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/lib/jackson-jaxrs-json-provider.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/lib/jackson-module-jaxb-annotations.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/lib/javax.annotation-api.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/lib/javax.inject.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/lib/javax.ws.rs-api.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/lib/jersey-client.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/lib/jersey-common.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/lib/jersey-container-servlet-core.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/lib/jersey-container-servlet.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/lib/jersey-guava.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/lib/jersey-media-jaxb.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/lib/jersey-media-multipart.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/lib/jersey-server.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/lib/json-lib-jdk15.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/lib/seeyon-ctp-core.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/lib/v3x-services.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

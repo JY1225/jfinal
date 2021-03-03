@@ -1,0 +1,142 @@
+#@layoutT("定时消息管理")
+#define main()
+	#@formStart()
+		#@queryStart('周期（1-7）')
+			<input type="search" name="MESS_RUN_WEEK" autocomplete="off" class="layui-input" placeholder="周期（1-7）"/>
+		#@queryEnd()
+		#@queryStart('周期（1-31）')
+		   <input type="search" name="MESS_RUN_DAY" autocomplete="off" class="layui-input" placeholder="周期（1-31）"/>
+		#@queryEnd()
+		
+		#@queryStart('是否启用')
+			<select name="MESS_STATUS" class="layui-input" lay-search>
+				<option value="">---是否启用---</option>
+				<option value="1">是</option>
+				<option value="0">否</option>
+			</select>
+		#@queryEnd()
+
+	#@formEnd()
+	
+	<div class="layui-row  f-index-toolbar">
+			<div class="layui-col-xs12">
+   				<table id="maingrid" lay-filter="maingrid"></table>
+   			</div>
+   	</div>
+   	<!-- 表头工具栏 -->
+   	<script type="text/html" id="table_toolbar">
+  		<div class="layui-btn-group">
+			#if(vs.funcMap.get('oa_timer_add'))
+				<button class="layui-btn layui-btn-normal layui-btn-sm" lay-event="add">
+				  <i class="layui-icon">&#xe608;</i> 新增
+				</button>
+			#end
+			#if(vs.funcMap.get('oa_timer_update'))
+				<button class="layui-btn layui-btn-normal layui-btn-sm" lay-event="update">
+				  <i class="layui-icon">&#xe642;</i> 编辑
+				</button>
+			#end
+			#if(vs.funcMap.get('oa_timer_delete'))					
+				<button class="layui-btn  layui-btn-normal layui-btn-sm" lay-event="delete">
+				  <i class="layui-icon">&#xe640;</i> 删除
+				</button>		
+			#end	
+				<button class="layui-btn layui-btn-normal layui-btn-sm" lay-event="refresh">
+				  <i class="layui-icon">&#xe669;</i> 刷新
+				</button>
+		</div>
+	</script>
+   	<!-- 	每行的操作按钮 -->
+	<script type="text/html" id="bar_maingrid">
+	#if(vs.funcMap.get('oa_timer_update'))
+  		<a class="layui-btn layui-btn-xs" lay-event="edit">编辑</a>
+	#end	
+
+	#if(vs.funcMap.get('oa_timer_delete'))
+  		<a class="layui-btn layui-btn-xs layui-btn-danger 
+		{{(d.id=='admin'||d.id=='superadmin')? 'layui-disabled':''}}" 
+		lay-event="{{(d.id=='admin'||d.id=='superadmin')? '':'del'}}" 	 
+		>删除</a>
+	#end
+	</script>
+#end
+
+#define js()
+<!-- 分页表格 -->
+<script>
+	 function userRole(obj){
+		 var data=obj.data;
+		var userCode=data.user_code;
+		var userName=data.user_name;
+		var url="#(path)/portal/core/sysUser/userRole?userCode="+userCode+"&userName="+userName;
+		openDialog("配置用户角色",url,false,null,null);
+	 }
+	 
+
+	gridArgs.title='定时消息';
+	gridArgs.dataId='RKEY';
+	gridArgs.deleteUrl='#(path)/portal/meiko/oa/timer/delete';
+	gridArgs.updateUrl='#(path)/portal/meiko/oa/timer/edit/';
+	gridArgs.addUrl='#(path)/portal/meiko/oa/timer/add';
+	gridArgs.gridDivId ='maingrid';
+	gridArgs.heightDiff=54;//调整表格高度
+	initGrid({id : 'maingrid'
+			,elem : '#maingrid'
+			,cellMinWidth: 80
+			,toolbar:'#table_toolbar'			
+			,cols : [ [
+					{title: '主键',field : 'RKEY',width : 35,checkbox : true},						
+					{title:'序号',type:'numbers',width:35},
+					{title: '周期（周1-7）', field: 'MESS_RUN_WEEK',templet:'#sexStr' },
+        			{title: '周期（日1-31）', field: 'MESS_RUN_DAY'},	        		      			       			
+        			{title: '发送时间', field: 'MESS_TIMES'},
+        			{title: '任务启动日', field: 'MESS_RUN_TIME'},
+        			{title: '是否启用', field: 'MESS_STATUS',templet:'#numToStr'},
+        			{title: 'sql脚本', field: 'MESS_SQL_LIST'},	
+        			{title: '最新发送时间', field: 'MESS_LAST_SEND_TIME'},
+					{title: '操作',fixed:'right',width : 160,align : 'left',toolbar : '#bar_maingrid'} // 这里的toolbar值是模板元素的选择器
+			] ]
+			,url:"#(path)/portal/meiko/oa/timer/list"
+			,searchForm : 'searchForm'
+		},{role:userRole});
+	
+</script>
+<!--
+<script type="text/html" id="sexStr">
+    {{ d.MESS_RUN_FLAG == 0 ? '每天' : d.MESS_RUN_FLAG == 1 ? '每周':'每月' }}            
+</script>
+--> 
+<script type="text/html" id="numToStr">
+    <input type="checkbox" name="isStop" {{(d.id=='admin'||d.id=='superadmin')?'disabled':''}} value="{{d.RKEY}}" 
+		lay-skin="switch" lay-text="是|否" lay-filter="allowLoginFilter" {{ d.MESS_STATUS == 1 ? 'checked' : '' }}>               
+</script>
+#end
+
+#define layuiFunc()
+ 	//监听开关操作
+	  form.on('switch(allowLoginFilter)', function(obj){
+		 var id = obj.value;
+		 var checked=obj.elem.checked;
+		 var state=1;
+		 if(!checked){
+		    state=0
+		 }
+		
+        $.post(
+        "#(path)/portal/meiko/oa/timer/isAllowLogin?isJson=true"
+        ,param({
+			'id' : id
+			,'state':state
+		}),function(feedback) {
+			if (feedback.success) {
+				layer.tips("修改成功", obj.othis);
+			} else {
+				$(".layui-laypage-btn").click();
+				layer.alert(feedback.msg);
+			}
+		});
+	  });	  
+	  
+ #end
+ 
+ 

@@ -1,0 +1,243 @@
+
+2021-02-05 10:02:48[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-26} closed
+
+2021-02-05 10:02:48[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-25} closed
+
+2021-02-05 10:02:48[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.stop()]: stopping server: Undertow - 2.0.28.Final
+
+2021-02-05 10:02:53[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-27,mysql} inited
+
+2021-02-05 10:02:53[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-28,oracle} inited
+
+2021-02-05 10:02:54[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.start()]: starting server: Undertow - 2.0.28.Final
+
+2021-02-05 10:06:26[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-28} closed
+
+2021-02-05 10:06:26[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-27} closed
+
+2021-02-05 10:06:26[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.stop()]: stopping server: Undertow - 2.0.28.Final
+
+2021-02-05 10:06:30[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-29,mysql} inited
+
+2021-02-05 10:06:30[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-30,oracle} inited
+
+2021-02-05 10:06:31[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.start()]: starting server: Undertow - 2.0.28.Final
+
+2021-02-05 10:08:10[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-30} closed
+
+2021-02-05 10:08:10[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-29} closed
+
+2021-02-05 10:08:10[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.stop()]: stopping server: Undertow - 2.0.28.Final
+
+2021-02-05 10:08:13[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-31,mysql} inited
+
+2021-02-05 10:08:14[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-32,oracle} inited
+
+2021-02-05 10:08:14[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.start()]: starting server: Undertow - 2.0.28.Final
+
+2021-02-05 10:08:20[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-32} closed
+
+2021-02-05 10:08:20[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-31} closed
+
+2021-02-05 10:08:20[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.stop()]: stopping server: Undertow - 2.0.28.Final
+
+2021-02-05 10:08:23[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-33,mysql} inited
+
+2021-02-05 10:08:23[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-34,oracle} inited
+
+2021-02-05 10:08:24[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.start()]: starting server: Undertow - 2.0.28.Final
+
+2021-02-05 10:31:28[ERROR]-[Thread: XNIO-17 task-4]-[com.qinhailin.common.intercepor.ExceptionInterceptor.intercept()]: java.sql.SQLSyntaxErrorException: ORA-00904: "A"."MESSD_STATUS": 标识符无效
+
+com.jfinal.plugin.activerecord.ActiveRecordException: java.sql.SQLSyntaxErrorException: ORA-00904: "A"."MESSD_STATUS": 标识符无效
+
+	at com.jfinal.plugin.activerecord.DbPro.doPaginate(DbPro.java:537)
+	at com.jfinal.plugin.activerecord.DbPro.paginate(DbPro.java:1303)
+	at com.qinhailin.common.base.service.BaseService.getGrid(BaseService.java:350)
+	at com.qinhailin.common.base.service.BaseService.queryForList(BaseService.java:248)
+	at com.qinhailin.portal.meiko.oa.service.TimerService.timerPage(TimerService.java:34)
+	at com.qinhailin.portal.meiko.oa.ctr.TimerController.list(TimerController.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:97)
+	at com.qinhailin.common.intercepor.LoggerInterceptor.intercept(LoggerInterceptor.java:49)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:91)
+	at com.qinhailin.common.intercepor.TokenInterceptor.intercept(TokenInterceptor.java:61)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:91)
+	at com.qinhailin.common.intercepor.ExceptionInterceptor.intercept(ExceptionInterceptor.java:44)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:91)
+	at com.qinhailin.common.intercepor.SessionInterceptor.intercept(SessionInterceptor.java:115)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:91)
+	at com.jfinal.ext.interceptor.SessionInViewInterceptor.intercept(SessionInViewInterceptor.java:44)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:91)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:89)
+	at com.qinhailin.common.safe.XssHandler.handle(XssHandler.java:55)
+	at com.qinhailin.common.handler.CommonHandler.handle(CommonHandler.java:69)
+	at com.jfinal.plugin.druid.DruidStatViewHandler.handle(DruidStatViewHandler.java:81)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:90)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:68)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at io.undertow.servlet.handlers.RedirectDirHandler.handleRequest(RedirectDirHandler.java:68)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:132)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.SessionRestoringHandler.handleRequest(SessionRestoringHandler.java:119)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:269)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:78)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:133)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:130)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:249)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:78)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:99)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:376)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:830)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.sql.SQLSyntaxErrorException: ORA-00904: "A"."MESSD_STATUS": 标识符无效
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:445)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:396)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:879)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:450)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:192)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:531)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:207)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForDescribe(T4CPreparedStatement.java:884)
+	at oracle.jdbc.driver.OracleStatement.executeMaybeDescribe(OracleStatement.java:1167)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1289)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3584)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeQuery(OraclePreparedStatement.java:3628)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeQuery(OraclePreparedStatementWrapper.java:1493)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_executeQuery(FilterChainImpl.java:3188)
+	at com.alibaba.druid.wall.WallFilter.preparedStatement_executeQuery(WallFilter.java:641)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_executeQuery(FilterChainImpl.java:3185)
+	at com.alibaba.druid.filter.FilterEventAdapter.preparedStatement_executeQuery(FilterEventAdapter.java:465)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_executeQuery(FilterChainImpl.java:3185)
+	at com.alibaba.druid.proxy.jdbc.PreparedStatementProxyImpl.executeQuery(PreparedStatementProxyImpl.java:181)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.executeQuery(DruidPooledPreparedStatement.java:228)
+	at com.jfinal.plugin.activerecord.DbPro.find(DbPro.java:314)
+	at com.jfinal.plugin.activerecord.DbPro.doPaginateByFullSql(DbPro.java:578)
+	at com.jfinal.plugin.activerecord.DbPro.doPaginate(DbPro.java:535)
+	... 57 more
+
+2021-02-05 10:32:28[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-34} closed
+
+2021-02-05 10:32:28[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-33} closed
+
+2021-02-05 10:32:28[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.stop()]: stopping server: Undertow - 2.0.28.Final
+
+2021-02-05 10:32:32[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-35,mysql} inited
+
+2021-02-05 10:32:32[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-36,oracle} inited
+
+2021-02-05 10:32:32[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.start()]: starting server: Undertow - 2.0.28.Final
+
+2021-02-05 10:33:23[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-36} closed
+
+2021-02-05 10:33:23[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-35} closed
+
+2021-02-05 10:33:23[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.stop()]: stopping server: Undertow - 2.0.28.Final
+
+2021-02-05 10:33:26[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-37,mysql} inited
+
+2021-02-05 10:33:27[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-38,oracle} inited
+
+2021-02-05 10:33:27[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.start()]: starting server: Undertow - 2.0.28.Final
+
+2021-02-05 10:40:00[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-38} closed
+
+2021-02-05 10:40:00[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-37} closed
+
+2021-02-05 10:40:00[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.stop()]: stopping server: Undertow - 2.0.28.Final
+
+2021-02-05 10:40:05[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-39,mysql} inited
+
+2021-02-05 10:40:05[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-40,oracle} inited
+
+2021-02-05 10:40:05[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.start()]: starting server: Undertow - 2.0.28.Final
+
+2021-02-05 10:40:17[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-40} closed
+
+2021-02-05 10:40:17[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-39} closed
+
+2021-02-05 10:40:17[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.stop()]: stopping server: Undertow - 2.0.28.Final
+
+2021-02-05 10:40:22[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-41,mysql} inited
+
+2021-02-05 10:40:22[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-42,oracle} inited
+
+2021-02-05 10:40:22[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.start()]: starting server: Undertow - 2.0.28.Final
+
+2021-02-05 11:46:03[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-42} closed
+
+2021-02-05 11:46:03[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-41} closed
+
+2021-02-05 11:46:03[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.stop()]: stopping server: Undertow - 2.0.28.Final
+
+2021-02-05 11:46:07[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-43,mysql} inited
+
+2021-02-05 11:46:07[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-44,oracle} inited
+
+2021-02-05 11:46:07[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.start()]: starting server: Undertow - 2.0.28.Final
+
+2021-02-05 11:46:42[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-44} closed
+
+2021-02-05 11:46:42[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-43} closed
+
+2021-02-05 11:46:42[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.stop()]: stopping server: Undertow - 2.0.28.Final
+
+2021-02-05 11:46:47[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-45,mysql} inited
+
+2021-02-05 11:46:47[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-46,oracle} inited
+
+2021-02-05 11:46:48[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.start()]: starting server: Undertow - 2.0.28.Final
+
+2021-02-05 11:48:40[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-46} closed
+
+2021-02-05 11:48:40[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-45} closed
+
+2021-02-05 11:48:40[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.stop()]: stopping server: Undertow - 2.0.28.Final
+
+2021-02-05 11:48:45[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-47,mysql} inited
+
+2021-02-05 11:48:45[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-48,oracle} inited
+
+2021-02-05 11:48:45[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.start()]: starting server: Undertow - 2.0.28.Final
+
+2021-02-05 12:08:54[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1,mysql} inited
+
+2021-02-05 12:08:55[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-2,oracle} inited
+
+2021-02-05 12:08:55[INFO]-[Thread: main]-[io.undertow.Undertow.start()]: starting server: Undertow - 2.0.28.Final
+
+2021-02-05 12:08:55[INFO]-[Thread: main]-[org.xnio.Xnio.<clinit>()]: XNIO version 3.3.8.Final
+
+2021-02-05 12:08:55[INFO]-[Thread: main]-[org.xnio.nio.NioXnio.<clinit>()]: XNIO NIO Implementation Version 3.3.8.Final
+
+2021-02-05 12:27:43[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-2} closed
+
+2021-02-05 12:27:43[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-1} closed
+
+2021-02-05 12:27:43[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.stop()]: stopping server: Undertow - 2.0.28.Final
+
+2021-02-05 12:27:47[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-3,mysql} inited
+
+2021-02-05 12:27:47[INFO]-[Thread: HotSwapWatcher]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-4,oracle} inited
+
+2021-02-05 12:27:47[INFO]-[Thread: HotSwapWatcher]-[io.undertow.Undertow.start()]: starting server: Undertow - 2.0.28.Final

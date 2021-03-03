@@ -1,0 +1,15 @@
+eclipse.preferences.version=1
+encoding//src/main/java=UTF-8
+encoding//src/main/java/com/qinhailin/common/base/service/BaseService.java=UTF-8
+encoding//src/main/java/com/qinhailin/common/base/service/FileService.java=UTF-8
+encoding//src/main/java/com/qinhailin/common/config/MainConfig.java=UTF-8
+encoding//src/main/java/com/qinhailin/common/util/ZipUtils.java=UTF-8
+encoding//src/main/java/com/qinhailin/portal/PortalController.java=UTF-8
+encoding//src/main/java/com/qinhailin/portal/meiko/oa/ctr/RealController.java=UTF-8
+encoding//src/main/java/com/qinhailin/portal/meiko/oa/service/RestWebService.java=UTF-8
+encoding//src/main/resources=UTF-8
+encoding//src/main/resources/job.properties=UTF-8
+encoding//src/main/webapp/WEB-INF/views/portal/generator/code/index.html=UTF-8
+encoding//src/main/webapp/WEB-INF/views/portal/meiko/oa/id_deadline/index.html=UTF-8
+encoding//src/test/java=UTF-8
+encoding/<project>=UTF-8
